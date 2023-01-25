@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1{
+    width:300px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.box2{
+    text-align: center;
+    color:gray;
+    width:300px;
+    border: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+.imgbox{
+    width:300px;
+    border: none;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    display:flex;
+    justify-content: center;
+}
+
+#continuebutton{
+    background-color: rgb(245, 206, 0);
+    width: 305px;
+    height: 25px;
+    border:.75px solid black;
+}
+
+#amazonbutton{
+    background-color: lightgray;
+    width: 300px;
+    height: 25px;
+    border:.75px solid gray;
+    margin: 15px;
+    justify-content: center;
+}
+
+textarea{
+    width: 300px;
+    height: 20px;
+    color: gray
+    
+}
+
+#signin-text{
+    font-size: 30px;
+    
+}
+hr{
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+a{
+    color: rgb(0, 160, 245);
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+
+footer{
+    border-top: 1px solid darkgray;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer nav{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+span:after,
+span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    
+}
